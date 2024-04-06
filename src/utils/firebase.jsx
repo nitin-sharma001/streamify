@@ -6,7 +6,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCl_u-pHNW6BqLbQHOv4ygRellYA9jrbtA",
+  apiKey: process.env.FIREBASE_API,
   authDomain: "streamify-ns.firebaseapp.com",
   projectId: "streamify-ns",
   storageBucket: "streamify-ns.appspot.com",
