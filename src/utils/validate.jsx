@@ -1,0 +1,5 @@
+
+
+const checkValidateData =(email, password) => {
+
+}
